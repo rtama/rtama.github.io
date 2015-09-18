@@ -6,13 +6,13 @@
 	    <meta name="viewport" content="width=device-width, initial-scale=1">
 	    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<title>Reece Tamashiro</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<!-- Latest compiled and minified CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 		<!-- Optional theme -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
 		<!-- Latest compiled and minified JavaScript -->
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 		<link type="text/css" rel="stylesheet" href="index.css">
 	</head>
 	<body>
@@ -45,6 +45,7 @@
 						<li class="active"><a href="#">About</a></li>
 						<li><a href="#about">Projects</a></li>
 						<li><a href="#resume">Resume</a></li>
+						<li><a href="#random">Random</a></li>
 						<li><a href="#contact">Contact</a></li>
 					</ul>
 				</div>
@@ -53,16 +54,25 @@
 
     <div class="container-fluid" id="cover-picture">
       <div class="row">
-      	<div class="col-xs-12 .text-center" id="welcome-page"><h2>Hi, I'm Reece!</h2></div>
+      	<div class="col-xs-12 .text-center" id="welcome-page"><h1>Hi, I'm Reece!</h1></div>
       </div>
     </div> 
 
     <div class="container-fluid" id="hawaii-pic-section">
     	<div class="row">
-	    	<div><img src="pictures/haiku_stairs.jpg" id="panopic"></div>
+	    	<div id="picture-container">
+	    		<div id="picture-container-cover">
+				    	<!--<img id="thumbnail" class="img-circle" src="pictures/thumbnail.jpg">-->
+				    	<div id="description-container">
+					    	<h3 id="thumbnail-description">I'm studying computer science at MIT and am interested in web development and design.
+					    	</h3>
+					    	<div id="about-link"><h3>About Me</h3></div>
+				    	</div>
+			    	</div>
+		    	</div>
+	    	</div>
     	</div>
     </div>
-
     <div class="container-fluid" id="project-section">
     	<div class="row">
     		<div><h1 class="section-header">Projects</h1></div>

@@ -9,6 +9,10 @@ body {
 	background-color: white;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-default .navbar-nav .open .dropdown-menu {
+    color: black;
+ }
+
 .nav li a{
 	color: black;
 }
@@ -25,7 +29,7 @@ body {
 	height: 500px;
 }
 
-#welcome-page h2{
+#welcome-page h1{
 	font-weight: lighter;
 }
 
@@ -38,12 +42,42 @@ body {
 	background-color: #90A4AE;
 }
 
-#hawaii-pic-section {
-	background-color: white;
+#picture-container {
+	background-image: url("pictures/haiku_stairs.jpg");
+	background-size: 100% 100%;
 }
 
-#panopic {
-	max-width: 100%;
-	height: auto;
-	opacity: .6;
+#picture-container-cover {
+	top, right, bottom, left: 0;
+	background-color: white;
+	background: rgba(255,255,255,0.5);
 }
+
+#thumbnail {
+	width: 20%;
+	border: 1px black solid;
+}
+
+#thumbnail-description {
+	display: inline-block;
+	color: black;
+	padding: 2%;
+}
+
+#description-container {
+	display: inline-block;
+	height: 100%;
+	margin: 5%;
+}
+
+#about-link {
+	color: black;
+	border: solid black 2px;
+	display: inline-block;
+	padding: 1em;
+}
+
+#about-link h3 {
+	margin: 0;
+}
+
