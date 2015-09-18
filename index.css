@@ -22,30 +22,29 @@ body {
 }
 
 #logo-name {
+	float: right;
 	margin-top: -5px;
+	margin-left: 5px;
+	padding: 0px;
+
 }
 
 #logo-and-name {
 	height: 100px;
 }
 
-#logo-and-name p {
-	float: right;
-	padding: 5px;
-}
-
 #firstname {
-	font-weight: bold;
+	font-weight: normal;
 }
 
 #lastname {
-
+	font-weight: lighter;
 }
 
 #logo {
 	height: 60%;
 	float: left;
-	margin-top: -8%;
+	margin-top: -15%;
 	/*
 	height: 200%;
 	margin-top: -30%;
