@@ -21,6 +21,37 @@ body {
 	color: black;
 }
 
+#logo-name {
+	margin-top: -5px;
+}
+
+#logo-and-name {
+	height: 100px;
+}
+
+#logo-and-name p {
+	float: right;
+	padding: 5px;
+}
+
+#firstname {
+	font-weight: bold;
+}
+
+#lastname {
+
+}
+
+#logo {
+	height: 60%;
+	float: left;
+	margin-top: -8%;
+	/*
+	height: 200%;
+	margin-top: -30%;
+	display: inline-block;*/
+}
+
 .row {
 	text-align: center;
 }
@@ -50,7 +81,10 @@ body {
 
 #picture-container {
 	background-image: url("pictures/haiku_stairs.jpg");
-	background-size: 100% 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
+	overflow: hidden;
 }
 
 #picture-container-cover {
