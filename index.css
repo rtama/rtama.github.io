@@ -3,6 +3,8 @@ body {
 	color: white;
 }
 
+/*'HeimatSans-ExtraLight', "Helvetica Neue", Helvetica, Verdana, Geneva, Arial, sans-serif;
+*/
 .navbar-static-top {
 	background-color: white;
 }
@@ -19,6 +21,29 @@ body {
 	text-align: center;
 }
 
-.frontpage h2{
+#cover-picture {
+	height: 500px;
+}
+
+#welcome-page h2{
 	font-weight: lighter;
+}
+
+.section-header {
+	font-weight: normal;
+}
+
+#contact-section {
+	color: black;
+	background-color: #90A4AE;
+}
+
+#hawaii-pic-section {
+	background-color: white;
+}
+
+#panopic {
+	max-width: 100%;
+	height: auto;
+	opacity: .6;
 }
