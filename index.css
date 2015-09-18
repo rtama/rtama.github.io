@@ -67,7 +67,7 @@ body {
 #description-container {
 	display: inline-block;
 	height: 100%;
-	margin: 5%;
+	margin: 10%;
 }
 
 #about-link {
@@ -79,5 +79,11 @@ body {
 
 #about-link h3 {
 	margin: 0;
+}
+
+#project-section {
+	background-color: white;
+	color: black;
+	height: 500px;
 }
 
