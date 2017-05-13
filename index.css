@@ -1,0 +1,33 @@
+body {
+	background-color: #FCE4EC;
+	font-family: Avenir, Helvetica, sans-serif;
+}
+
+.header {
+	font-size: 5em;
+	text-align: center;
+	color: #880E4F;
+	padding-top: 20%;
+        opacity: 0; 
+	-webkit-animation: fadein 2s ease-out .5s forwards;
+           -moz-animation: fadein 2s ease-out .5s forwards;
+                animation: fadein 2s ease-out .5s forwards;
+}
+
+@-webkit-keyframes fadein{
+    from { opacity: 0}
+     to  { opacity: 1}
+}
+@-moz-keyframes fadein_down {
+    from { opacity: 0}
+     to  { opacity: 1}
+}
+@keyframes fadein_down {
+    from { opacity: 0}
+     to  { opacity: 1}
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
